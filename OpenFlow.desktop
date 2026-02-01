@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=OpenFlow
+Comment=Toggle speech-to-text (Right Ctrl to speak)
+Exec=/home/snailpi/speech-to-text/openflow-toggle.sh
+Icon=microphone-sensitivity-high
+Terminal=false
+Type=Application
+Categories=Utility;Audio;
+Keywords=speech;voice;dictation;

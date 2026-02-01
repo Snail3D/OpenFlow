@@ -34,8 +34,24 @@ mkdir -p model
 
 ## Usage
 
+### Desktop Launcher
+Double-click the OpenFlow desktop icon to toggle on/off.
+
+### Manual
 ```bash
+# Toggle on/off
+./openflow-toggle.sh
+
+# Or run directly
 sudo ./start-stt.sh
 ```
 
 Hold Right Ctrl, speak, release to transcribe.
+
+## Desktop Installation
+
+Copy the .desktop file to your desktop:
+```bash
+cp OpenFlow.desktop ~/Desktop/
+chmod +x ~/Desktop/OpenFlow.desktop
+```
