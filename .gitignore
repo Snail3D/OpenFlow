@@ -1,0 +1,15 @@
+# Virtual environment
+speech-to-text-venv/
+venv/
+.venv/
+
+# Vosk model (download separately)
+model/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
